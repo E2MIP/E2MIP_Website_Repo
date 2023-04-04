@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="Without gitignore" />
+    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="Without gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/b_description.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/b_description.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/public/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/public/homepage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/public/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/wolfda/PycharmProjects/E2MIP_Website_Repo",
+    "last_opened_file_path": "/home/luisagallee/PycharmProjects/e2mip.github.io",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
