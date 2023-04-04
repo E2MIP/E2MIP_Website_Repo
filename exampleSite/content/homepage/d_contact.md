@@ -9,7 +9,7 @@ Jun.-Prof. Dr.-Ing. Michael Götz
 [Web](https://www.uniklinik-ulm.de/radiologie-diagnostische-und-interventionelle/schwerpunkte-sektionen/sektion-experimentelle-radiologie.html)
 &nbsp; 
 
-{{<icon class="fa fa-envelope">}}&nbsp;[michael.goetz@uni-ulm.de](mailto:michael.goetz@uni-ulm.de)
+[michael.goetz@uni-ulm.de](mailto:michael.goetz@uni-ulm.de)
 
 
 Please feel free to contact us!
