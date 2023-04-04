@@ -1,5 +1,5 @@
 ---
 header_image: "images/ai.jpg"
-header_headline: "XAIRAD"
-header_subheadline: "Cooperation  for Artificial Intelligence in Experimental Radiology"
+header_headline: "E2MIP"
+header_subheadline: " Energy Efficient Medical Image Processing"
 ---

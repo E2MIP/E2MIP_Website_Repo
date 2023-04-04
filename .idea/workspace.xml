@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="" />
+    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/about-me.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/about-me.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/contact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/opener.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/opener.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/services.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/services.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -19,15 +28,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/wolfda/PycharmProjects/E2MIP_Website_Repo",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/wolfda/PycharmProjects/E2MIP_Website_Repo&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,6 +49,7 @@
       <workItem from="1678794189356" duration="23000" />
       <workItem from="1678794296849" duration="271000" />
       <workItem from="1680608068176" duration="153000" />
+      <workItem from="1680609372967" duration="1704000" />
     </task>
     <servers />
   </component>
