@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="Without gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/b_description.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/b_description.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/c_example.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/c_example.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/public/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/public/homepage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/public/sitemap.xml" afterDir="false" />
-    </list>
+    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="Without gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +25,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/wolfda/PycharmProjects/E2MIP_Website_Repo",
+    "last_opened_file_path": "/home/wolfda/PycharmProjects/MyWebsite_Repo",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -60,7 +51,7 @@
       <workItem from="1680620875600" duration="699000" />
       <workItem from="1680692516461" duration="25000" />
       <workItem from="1680692594422" duration="14000" />
-      <workItem from="1681212793027" duration="523000" />
+      <workItem from="1681212793027" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Website">
       <created>1680611202397</created>
@@ -90,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680619405331</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Without gitignore">
+      <created>1681213559467</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681213559467</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
