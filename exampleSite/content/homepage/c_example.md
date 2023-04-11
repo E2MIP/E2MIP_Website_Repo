@@ -7,6 +7,6 @@ header_menu: true
 &nbsp;
 
 #### Code
-[GitHub](https://www.github.com)
+- [GitHub](https://www.github.com)
 
 

@@ -16,7 +16,7 @@ header_menu: true
 
 ---
 
-#### Getting Started_2
+#### Getting Started
 
 
 ---
