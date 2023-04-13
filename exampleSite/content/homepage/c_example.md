@@ -1,12 +1,18 @@
 ---
-title: "Example"
+title: "Organization"
 weight: 3
 header_menu: true
 ---
 
 &nbsp;
 
-#### Code
-- [GitHub](https://www.github.com)
+### From Boston Children Hospital
+XXX 
+
+### From University of Ulm: 
+Michael Götz (Michael.goetz@uni-ulm.de) , Luisa Gallee, Heiko Hillenhagen, Daniel Wolf, Sabitha Manoj. 
+
+### From Karlsruher Institute of Technology 
+Charlotte Debus, Markus Götz, Simon Raffeiner
 
 

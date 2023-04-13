@@ -4,16 +4,11 @@ weight: 4
 header_menu: true
 ---
 
-Jun.-Prof. Dr.-Ing. Michael Götz
+If you have any question, feel free to contact the organizers at 
 
-[Web](https://www.uniklinik-ulm.de/radiologie-diagnostische-und-interventionelle/schwerpunkte-sektionen/sektion-experimentelle-radiologie.html)
-&nbsp; 
+[e2mip.challenge@gmail.com ](e2mip.challenge@gmail.com )
 
-[michael.goetz@uni-ulm.de](mailto:michael.goetz@uni-ulm.de)
-
-
-Please feel free to contact us!
-
-[Impressum](https://www.uni-ulm.de/rechtliche-hinweise/impressum/)
+&nbsp;
+&nbsp;
 
 [Image](https://pixabay.com/illustrations/artificial-intelligence-brain-think-3382507/) thanks to [Gerd Altmann](https://pixabay.com/users/geralt-9301/)
