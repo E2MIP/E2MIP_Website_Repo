@@ -25,7 +25,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/wolfda/PycharmProjects/E2MIP_Website_Repo",
+    "last_opened_file_path": "/home/wolfda/PycharmProjects/e2mip.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -52,7 +52,7 @@
       <workItem from="1680692516461" duration="25000" />
       <workItem from="1680692594422" duration="14000" />
       <workItem from="1681212793027" duration="1001000" />
-      <workItem from="1681401016000" duration="2033000" />
+      <workItem from="1681401016000" duration="2176000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Website">
       <created>1680611202397</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681402907883</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add text from Michael">
+      <created>1681403142019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681403142019</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
