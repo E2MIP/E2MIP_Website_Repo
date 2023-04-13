@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="Without gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/a_opener.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/a_opener.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/b_description.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/b_description.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/c_example.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/c_example.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampleSite/content/homepage/d_contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSite/content/homepage/d_contact.md" afterDir="false" />
-    </list>
+    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="Add text from Michael" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +52,7 @@
       <workItem from="1680692516461" duration="25000" />
       <workItem from="1680692594422" duration="14000" />
       <workItem from="1681212793027" duration="1001000" />
-      <workItem from="1681401016000" duration="1675000" />
+      <workItem from="1681401016000" duration="2033000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Website">
       <created>1680611202397</created>
@@ -102,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681213652622</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add text from Michael">
+      <created>1681402711836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681402711836</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add text from Michael">
+      <created>1681402907883</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681402907883</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +131,7 @@
     <MESSAGE value="Basic Website" />
     <MESSAGE value="Example Side names" />
     <MESSAGE value="Without gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Without gitignore" />
+    <MESSAGE value="Add text from Michael" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add text from Michael" />
   </component>
 </project>
