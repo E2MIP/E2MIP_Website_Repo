@@ -7,6 +7,12 @@ theme = 'hugo-theme-learn-master'
   themeVariant = "blue"
   titleSeparator = "-"
 
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> Github"
+identifier = "ds"
+url = "https://github.com/E2MIP/e2mip.github.io"
+weight = 10
+
 [[menu.shortcuts]]
 name = "<i class='fas fa-bullhorn'></i> About us"
 url = "/credits"

@@ -6,7 +6,7 @@ weight: 2
 ## Outline
 The challenge consists of three tasks based on two datasets. A participating team may address only one or two of the tasks, but we encourage everyone to submit solutions for all three tasks.
 
-The solutions have to be submitted as a script that generates a container which then includes the final solution. The script will be executed by the organizers to create the target containers which will then be run on a high-performance computational system with the capability to monitor and record the energy consumption. There is no limitation w.r.t to the technology that can be used, as long as it is possible to run inside the container, and all custom code is readable to the organizers to allow for rule checking. Of course, the task must be solved by relying on the provided training/test data without incorporating additional knowledge about the dataset during inference. For more details on the requirements, please see the Rules section.
+The solutions have to be submitted as a script that generates a container which then includes the final solution. The script will be executed by the organizers to create the target containers which will then be run on a high-performance computational system with the capability to monitor and record the energy consumption. There is no limitation w.r.t to the technology that can be used, as long as no prohibited information is used, it is possible to run inside the container, and all custom code is readable to the organizers to allow for rule checking. For more details on the requirements, please see the Rules section.
 
 ## Datasets
 Two datasets are used for this challenge. Their complementary nature allows for assessing different aspects of the development phase.
