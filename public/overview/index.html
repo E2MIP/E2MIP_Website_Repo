@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.101.0" />
     <meta name="description" content="">
 
 
@@ -11,22 +11,22 @@
     <title>Challenge Overview - E2MIP</title>
 
     
-    <link href="/css/nucleus.css?1681893739" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1681893739" rel="stylesheet">
-    <link href="/css/hybrid.css?1681893739" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1681893739" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1681893739" rel="stylesheet">
-    <link href="/css/auto-complete.css?1681893739" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1681893739" rel="stylesheet">
-    <link href="/css/theme.css?1681893739" rel="stylesheet">
-    <link href="/css/tabs.css?1681893739" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1681893739" rel="stylesheet">
+    <link href="/css/nucleus.css?1684487820" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1684487820" rel="stylesheet">
+    <link href="/css/hybrid.css?1684487820" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1684487820" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1684487820" rel="stylesheet">
+    <link href="/css/auto-complete.css?1684487820" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1684487820" rel="stylesheet">
+    <link href="/css/theme.css?1684487820" rel="stylesheet">
+    <link href="/css/tabs.css?1684487820" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1684487820" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1681893739" rel="stylesheet">
+    <link href="/css/theme-blue.css?1684487820" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1681893739"></script>
+    <script src="/js/jquery-3.3.1.min.js?1684487820"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -53,14 +53,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1681893739"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1681893739"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1684487820"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1684487820"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1681893739"></script>
+<script type="text/javascript" src="/js/search.js?1684487820"></script>
 
     
   </div>
@@ -135,13 +135,13 @@
  
   
     
-    <li data-nav-id="/more_information/" title="More Information (?)" class="dd-item
+    <li data-nav-id="/more_information/" title="More Information" class="dd-item
         
         
         
         ">
       <a href="/more_information/">
-          More Information (?)
+          More Information
           
       </a>
       
@@ -159,10 +159,6 @@
       <section id="shortcuts">
         <h3>More</h3>
         <ul>
-          
-              <li>
-                  <a class="padding" href="https://github.com/E2MIP/e2mip.github.io"><i class='fab fa-github'></i> Github</a>
-              </li>
           
               <li>
                   <a class="padding" href="/credits"><i class='fas fa-bullhorn'></i> About us</a>
@@ -222,12 +218,18 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#outline-and-datasets">Outline and Datasets</a></li>
+    <li><a href="#outline">Outline</a></li>
+    <li><a href="#datasets">Datasets</a>
+      <ul>
+        <li><a href="#dataset-1-lung-nodule">Dataset 1 (Lung Nodule)</a></li>
+        <li><a href="#dataset-2-fetal-brain-mri">Dataset 2 (Fetal brain MRI)</a></li>
+      </ul>
+    </li>
     <li><a href="#tasks">Tasks</a>
       <ul>
-        <li><a href="#task-1-classification-of-a-known-dataset">Task 1: Classification of a known dataset</a></li>
-        <li><a href="#task-2-segmentation-of-a-known-dataset">Task 2: Segmentation of a known dataset</a></li>
-        <li><a href="#task-3">Task 3</a></li>
+        <li><a href="#task-1-classification-of-a-known-dataset-dataset-1">Task 1: Classification of a known dataset (Dataset 1)</a></li>
+        <li><a href="#task-2-segmentation-of-a-known-dataset-dataset-1">Task 2: Segmentation of a known dataset (Dataset 1)</a></li>
+        <li><a href="#task-3-segmentation-of-an-unknown-dataset-dataset-2">Task 3: Segmentation of an unknown dataset (Dataset 2)</a></li>
       </ul>
     </li>
   </ul>
@@ -255,28 +257,24 @@
 
 
 
-	<h2 id="outline-and-datasets">Outline and Datasets</h2>
-<p>The challenge consists of different based on two datasets, allowing the evaluation of optimization ideas on different tasks. While we encourage everyone to submit solutions for the different tasks, this is optional.</p>
+	<h2 id="outline">Outline</h2>
+<p>The challenge consists of three tasks based on two datasets. A participating team may address only one or two of the tasks, but we encourage everyone to submit solutions for all three tasks.</p>
+<p>The solutions have to be submitted as a script that generates a container which then includes the final solution. The script will be executed by the organizers to create the target containers which will then be run on a high-performance computational system with the capability to monitor and record the energy consumption. There is no limitation w.r.t to the technology that can be used, as long as it is possible to run inside the container, and all custom code is readable to the organizers to allow for rule checking. Of course, the task must be solved by relying on the provided training/test data without incorporating additional knowledge about the dataset during inference. For more details on the requirements, please see the Rules section.</p>
+<h2 id="datasets">Datasets</h2>
 <p>Two datasets are used for this challenge. Their complementary nature allows for assessing different aspects of the development phase.</p>
-<ul>
-<li>A private dataset (The Boston Child Dataset). XXX (Describe the dataset here. )</li>
-<li>A public dataset (The LIDC dataset) XXX (Describe the dataset here)</li>
-</ul>
-<p>The solutions have to be submitted as a script that generated a container which then includes the final solution. The script will be executed by the organizers to create the target containers. The container will then be run on a high-performance system which allows for tracking the energy consumption. There is no limitation w.r.t to the technology that can be used, as long as it is possible to run inside the container and all custom code is readable to the organizers to allow for rule checking. For more details on the requirements see the rule section.</p>
+<h3 id="dataset-1-lung-nodule">Dataset 1 (Lung Nodule)</h3>
+<p>Here, the public LIDC-IDRI dataset will be used. It contains more than 1.000 CT images of patients with lung nodules. All images have been annotated by experts with segmentations (for nodules &gt; 3mm) and a malignancy rating. The corresponding publications give a detailed description of the dataset (<a href="https://doi.org/10.7937/K9/TCIA.2015.LO9QL9SX">10.7937/K9/TCIA.2015.LO9QL9SX</a> , <a href="https://doi.org/10.1118/1.3528204">10.1118/1.3528204</a> )
+The dataset can be downloaded from the <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=1966254">The Cancer Imaging Archive (TCIA)</a>. Beside the images and annotations, this includes additional description and details of the dataset.</p>
+<h3 id="dataset-2-fetal-brain-mri">Dataset 2 (Fetal brain MRI)</h3>
+<p>This dataset consists of T2-weighted and diffusion-weighted MRI scans of fetal brains. The brain has been manually segmented by an expert to provide ground truth labels. The dimensions of T2-weighted and diffusion-weighted MRI images, respectively, are 256 x 256 x S and 128 x 128 x S voxels, where S is the number of slices in the scan. In other words, the size of each 2D slice for T2-weighted and diffusion-weighted scans are 256 x 256 and 128 x 128, respectively. The within-slice resolutions vary. Scans are available as NIfTI files (.nii.gz).</p>
 <h2 id="tasks">Tasks</h2>
-<p>This year, the following tasks will be evaluated.</p>
-<h3 id="task-1-classification-of-a-known-dataset">Task 1: Classification of a known dataset</h3>
-<p>The objective is to predict the malignancy of lung nodules based on CT images, with segmentations of each nodule already being provided. The entire dataset is available to participants, reflecting the standard development process.
-To tackle this task, participants must submit their untrained solutions, which will then be trained and evaluated on an unknown data split. As such, the submitted solution must contain both the training process and the inference process. Non-learning-based solutions may opt for an empty training process.
-The submitted solutions will be evaluated on their classification performance and energy consumption during both the training and inference phases.</p>
-<h3 id="task-2-segmentation-of-a-known-dataset">Task 2: Segmentation of a known dataset</h3>
-<p>The objective is to segment lung nodules based on CT images. The entire dataset is available to participants, reflecting the standard development process.
-To tackle this task, participants must submit their untrained solutions, which will then be trained and evaluated on an unknown data split. As such, the submitted solution must contain both the training process and the inference process. Non-learning-based solutions may opt for an empty training process.
-The submitted solutions will be evaluated on their segmentation performance and energy consumption during both the training and inference phases.</p>
-<h3 id="task-3">Task 3</h3>
-<p>The goal is to segment XXX in slices of 3D MR images. The dataset is mainly unknown to the participants, only exemplary images are available.
-To solve this task, the participants have to submit their untrained solution. The solution will then be trained and evaluated on the final training- and test-dataset. Since the original dataset is not available, the submitted solution must not only contain any training and the inference process but also the final hyperparameter tuning. An empty training process is possible for non-learning-based solutions.
-The solution will be evaluated w.r.t to classification performance as well as energy consumption during hyperparameter tuning with training and inference.</p>
+<h3 id="task-1-classification-of-a-known-dataset-dataset-1">Task 1: Classification of a known dataset (Dataset 1)</h3>
+<p>The objective is to predict the malignancy of lung nodules based on CT images, with segmentations of each nodule already being provided. The entire dataset is available to participants, reflecting the standard development process. To tackle this task, participants must submit their untrained solutions, which will then be trained and evaluated on an undisclosed data split. As such, the submitted solution must contain both the training process and the inference process. Non-learning-based solutions may opt for an empty training process. The submitted solutions will be evaluated based on their classification performance and energy consumption during both the training and inference phases.</p>
+<h3 id="task-2-segmentation-of-a-known-dataset-dataset-1">Task 2: Segmentation of a known dataset (Dataset 1)</h3>
+<p>The objective is to segment lung nodules on CT images. The entire dataset is available to participants, reflecting the standard development process. To tackle this task, participants must submit their untrained solutions, which will then be trained and evaluated on an undisclosed data split. As such, the submitted solution must contain both the training process and the inference process. Non-learning-based solutions may opt for an empty training process. The submitted solutions will be evaluated based on their segmentation performance and energy consumption during both the training and inference phases.</p>
+<h3 id="task-3-segmentation-of-an-unknown-dataset-dataset-2">Task 3: Segmentation of an unknown dataset (Dataset 2)</h3>
+<p>For this task, the dataset is not disclosed to the participants. Only a few examples are provided in order to give the participants a sense of how the data look like. The objective is to segment the fetal brain in MRI slices.
+To solve this task, the participants have to submit their untrained solution. The solution will then be trained and evaluated on the final training and test data samples. Since the dataset is not disclosed, the submitted solution must include any hyperparameter tuning that the participating teams may wish to implement. Needless to say, the energy usage for such hyperparameter tuning will be counted towards the total energy usage. Therefore, methods that can reach high segmentation accuracy with little hyperparameter tuning will be advantageous. An empty training process is possible for non-learning-based solutions.</p>
 
 
 
@@ -386,19 +384,19 @@ The solution will be evaluated w.r.t to classification performance as well as en
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1681893739"></script>
-    <script src="/js/perfect-scrollbar.min.js?1681893739"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1681893739"></script>
-    <script src="/js/jquery.sticky.js?1681893739"></script>
-    <script src="/js/featherlight.min.js?1681893739"></script>
-    <script src="/js/highlight.pack.js?1681893739"></script>
+    <script src="/js/clipboard.min.js?1684487820"></script>
+    <script src="/js/perfect-scrollbar.min.js?1684487820"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1684487820"></script>
+    <script src="/js/jquery.sticky.js?1684487820"></script>
+    <script src="/js/featherlight.min.js?1684487820"></script>
+    <script src="/js/highlight.pack.js?1684487820"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1681893739"></script>
-    <script src="/js/learn.js?1681893739"></script>
-    <script src="/js/hugo-learn.js?1681893739"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1684487820"></script>
+    <script src="/js/learn.js?1684487820"></script>
+    <script src="/js/hugo-learn.js?1684487820"></script>
     
         
-            <script src="/mermaid/mermaid.js?1681893739"></script>
+            <script src="/mermaid/mermaid.js?1684487820"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

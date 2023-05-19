@@ -5,15 +5,7 @@ weight: 4
 
 ## Starting point
 
-We provide code to generate sample data for the Challenge datasets:
-
-**Dataset 1**: [GitHub LIDCI-IDRI Data](https://github.com/XRad-Ulm/E2MIP_LIDCI-IDRI_data)
-
-Furthermore, we provide baseline implementations for the Challenge tasks:
-
-**Task 1**: [GitHub LIDCI-IDRI Classification](https://github.com/XRad-Ulm/E2MIP_LIDCI-IDRI_classification)
-
-**Task 2**: [GitHub LIDCI-IDRI Segmentation](https://github.com/XRad-Ulm/E2MIP_LIDC-IDRI_segmentation)
+We provide a baseline implementation for Task 1, Task 2, and Task 3 which can be found in the corresponding Github Repositories. 
 
 These solutions provide a straightforward baseline and should help to prepare own solutions. They can also serve as a starting point for individual development, but a completely new design is possible and encouraged.
 
@@ -44,4 +36,15 @@ Please make sure to roughly track the development process in order to be able to
 The submission process will be done via CMT3, the same system that is used for MICCAI submissions. The link to the submission page will be communicated here. 
 
 ## Challenge Publication 
-A summary publication in a leading journal describing the findings from the challenge is envisioned after the challenge. Successful teams are invited to contribute to the paper. The number of coauthors per team will be decided later depending on the number of submissions. We aim for at least two co-authors per team.
+A summary publication in a leading journal describing the findings from the challenge is envisioned after the challenge. Successful teams are invited to contribute to the paper. The number of coauthors per team will be decided later depending on the number of submissions, we aim for at least two co-authors per team.
+
+### Evaluation
+The evaluation will consider two aspects: the algorithm’s performance and energy efficiency. We see both as related and think that there is a trade-off. To avoid a focus on a certain aspect, we will jointly evaluate them. This allows picking more energy-efficient solutions if the performance is less critical and vice versa for more performance-critical applications. 
+
+Consequently, we will not name a specific winner for each task but use a Pareto-front to evaluate all approaches. The submissions will be shown in a diagram with both aspects as axis labels. A solution is on the Pareto-front when there is no other solution that performs better while showing the same or better energy efficiency.  
+
+To ensure that all submissions are still usable, we require a minimum performance of 80% of the baseline approaches and allow a maximum time for training and inference.
+
+Training and inference of each submission will be conducted on a HPC node with 4 NVIDIA A100 GPUs (each 48 GB VRAM) and a Intel Xeon Platinum 8368 processor. For task 1 and task 2, a maximum runtime of 4 days is allowed, and for task 3 a maximum of 7 days. 
+
+The key metrics for performance evaluation will be Area under ROC-Curve for classification and DICE for segmentation. The energy consumption will be used as measured by the system’s hardware. 

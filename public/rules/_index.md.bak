@@ -20,14 +20,15 @@ If you have any questions about the rules, please do not hesitate to reach out t
 
 - Each team should submit a paper along with the final solution in order to participate in the challenge.
 - The paper should follow good scientific practice.
-- The paper should include sufficient detail to allow reproducing the submitted solution..
+- The paper should be sufficient to reproduce the submitted solution.
 - The paper should explain the main ideas used for the final contribution.
 - We encourage adding preliminary evaluation results to the submitted paper.
 - We strongly encourage the discussion of the development process, of ideas that didn’t work out or were inferior.
 - Participants are welcome to publish their own method and results after the challenge in any venue. However, there is an embargo on the official results from the challenge until the challenge paper is published.
-- Teams affiliated with to the organizing institutions can contribute to the challenge but will be highlighted as such.
+- Teams related to the organizing institutions can contribute to the challenge but will be highlighted as such.
 
 ## Participation teams
 - A team can either consist of a single individual or multiple persons.
 - Each individual can only be part of a single team.
-- Unfortunately, our high-performance computational system that will be used to evaluate the methods will not accommodate teams that are affiliated with organizations in certain countries that are on the current embargo lists from the USA or the EU. If you are in doubt, please contact the organizers.
+- Unfortunately, our high-performance computational system that will be used to evaluate the methods will not accommodate teams that are affiliated with organizations in certain countries that are on the current embargo lists from the USA or EU. If you are in doubt, please contact the organizers.
+
