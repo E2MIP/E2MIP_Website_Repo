@@ -15,6 +15,9 @@ Furthermore, we provide baseline implementations for the Challenge tasks:
 
 **Task 2**: [GitHub LIDCI-IDRI Segmentation](https://github.com/XRad-Ulm/E2MIP_LIDC-IDRI_segmentation)
 
+**Task 3**: [GitHub Fetal Brain Segmentation](https://github.com/Faghihpirayesh/E2MIP_Challenge_FetalBrainSegmentation)
+
+
 These solutions provide a straightforward baseline and should help to prepare own solutions. They can also serve as a starting point for individual development, but a completely new design is possible and encouraged.
 
 Right now, the baseline implementations are missing the containerizing scripts. As the evaluation system is currently set up, we didn’t want to share a solution that might have to be changed again. As soon as the system is finalized and tested, a template containerizing script will be provided. 
