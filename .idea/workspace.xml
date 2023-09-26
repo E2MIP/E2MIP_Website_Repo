@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="Updeted intro, google e-mail, github links, small errors">
+    <list default="true" id="103c73e4-9431-4cb5-92dd-5b7c025245d3" name="Changes" comment="Task3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/more_information/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/more_information/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/credits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/credits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/more_information/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/more_information/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/overview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/overview/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/rules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/rules/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +63,8 @@
       <workItem from="1684493835069" duration="305000" />
       <workItem from="1684494192241" duration="268000" />
       <workItem from="1685022830760" duration="49000" />
-      <workItem from="1686570137699" duration="425000" />
+      <workItem from="1686570137699" duration="1448000" />
+      <workItem from="1695717057926" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Website">
       <created>1680611202397</created>
@@ -142,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684493892903</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Task3">
+      <created>1686570614586</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686570614586</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +166,7 @@
     <MESSAGE value="Without gitignore" />
     <MESSAGE value="Add text from Michael" />
     <MESSAGE value="Updeted intro, google e-mail, github links, small errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updeted intro, google e-mail, github links, small errors" />
+    <MESSAGE value="Task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task3" />
   </component>
 </project>

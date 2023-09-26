@@ -19,7 +19,7 @@ Furthermore, we provide baseline implementations for the Challenge tasks:
 
 These solutions provide a straightforward baseline and should help to prepare own solutions. They can also serve as a starting point for individual development, but a completely new design is possible and encouraged.
 
-Right now, the baseline implementations are missing the containerizing scripts. As the evaluation system is currently set up, we didn’t want to share a solution that might have to be changed again. As soon as the system is finalized and tested, a template containerizing script will be provided. 
+Submit your work here: [cmt3 Conference Management](https://cmt3.research.microsoft.com/E2MIP2023/)
 
 ## Evaluation
 
