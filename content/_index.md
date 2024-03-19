@@ -4,29 +4,31 @@ title: "Introduction"
 
 # Welcome to the E2MIP Challenge!
 
-**Submission is open:** [cmt3 Conference Management](https://cmt3.research.microsoft.com/E2MIP2023/)
-
 For all participants, please register at the Google-Group: e2mip@googlegroups.com
 
+## 📰 News
+__20.03.2024: Challenge is open__
+
+We are pleased to announce that the E2MIP-challenge will be re-run in 2024. With the update of the website, the challenge is open again. 
+
+## Tldr;
+E2MIP is an effort to assess the energy usage for medical image computing and to reduce it. A trade-off approach using a Pareto front will be used to show the trade-off between performance and energy rather than producing a winning list. Consequently, we encourage all types of submissions: Simple, default algorithms, specifically tuned energy-efficient algorithms, high-performance algorithms, creative algorithms, and so on from domain experts or computer scientists at all levels of experience.
+
+Three different tasks (two segmentation, one classification) using two datasets (one public, one private) are open for submission. Starting solutions are available for each task and can be extended with own ideas both to boost performance or reduce the required energy.  
+
+
 ## Introduction
+Deep Learning is now a major tool for medical image analysis, with a variety of different algorithms used. However, the increasing use of computational resources for medical image processing remains a concerning trend with much uncertainty around it. What is the current energy required for different tasks? What are techniques for efficient algorithms? What are the trade-off of efficient algorithms? 
 
-To combat the damaging effects of climate change, conserving energy is imperative. However, the increasing use of computational resources for medical image processing remains a concerning trend. That’s where our international challenge _Energy-Efficient Medical Image Processing_ comes in: We aim to cultivate and evaluate innovative solutions that prioritize energy-efficiency in the development and deployment of medical image processing algorithms, ultimately resulting in more sustainable and superior solutions.
+Addressing these open questions is where our international challenge Energy-Efficient Medical Image Processing comes in: We aim to cultivate and evaluate innovative solutions that prioritize energy efficiency in the development and deployment of medical image processing algorithms, ultimately resulting in more sustainable and superior solutions.
 
-In addition to its potential benefits for climate change, the solutions developed in this challenge may be useful in two important ways: (1) They will enable the use of state of the art medical image analysis methods in situations where energy is scarce or expensive such as in developing countries and on battery-operated/handheld devices. (2) They will promote better training procedures to replace the current common practice that involves extensive hyper-parameter search and trial-and-error.
+In addition to its potential benefits for climate change, the solutions developed in this challenge may be useful in two important ways: (1) They will enable the use of state-of-the-art medical image analysis methods in situations where energy is scarce or expensive such as in developing countries and on battery-operated/handheld devices. (2) They will promote better training procedures to replace the current common practice that involves extensive hyper-parameter search and trial-and-error.
 
-This challenge centers on two vital tasks in medical image analysis: segmentation and classification. The goal is to identify the methods that not only achieve good task performance, but also use as little energy as possible during model training and inference. We believe that the participants’ discoveries will set a new standard for energy efficiency and inspire further advances across various domains.
+This challenge centers on two vital tasks in medical image analysis: segmentation and classification. The goal is to identify the methods that not only achieve good task performance but also use as little energy as possible during model training and inference. We believe that the participants’ discoveries will set a new standard for energy efficiency and inspire further advances across various domains.
 
-To stay informed of any updates, we encourage all interested parties to subscribe to our newsletter.
 
 In case you have any questions, feel free to contact us: e2mip@googlegroups.com
 
 
-## Timeline
-
-The Energy-Efficient Medical Image Processing challenge is currently open. 
-
-In the first phase of the challenge, we will accept initial submissions that will not be ranked. We will allow each participating team three optional initial submissions. The dates for these test runs will be communicated here as soon as they are fixed.  
-
-
-
-
+## Challenge Publication 
+A summary publication in a leading journal describing the findings from the challenge is envisioned after the challenge. Successful teams are invited to contribute to the paper. The number of coauthors per team will be decided later depending on the number of submissions. We aim for at least two co-authors per team.

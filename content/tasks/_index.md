@@ -1,0 +1,15 @@
+---
+title: Tasks
+weight: 3
+---
+
+
+### ✅ Task 1: Classification of a known dataset (Dataset 1)
+The objective is to predict the malignancy of lung nodules based on CT images, with segmentations of each nodule already being provided. The entire dataset is available to participants, reflecting the standard development process. To tackle this task, participants must submit their untrained solutions, which will then be trained and evaluated on an undisclosed data split. As such, the submitted solution must contain both the training process and the inference process. Non-learning-based solutions may opt for an empty training process. The submitted solutions will be evaluated based on their classification performance and energy consumption during both the training and inference phases.
+
+### ✅ Task 2: Segmentation of a known dataset (Dataset 1)
+The objective is to segment lung nodules on CT images. The entire dataset is available to participants, reflecting the standard development process. To tackle this task, participants must submit their untrained solutions, which will then be trained and evaluated on an undisclosed data split. As such, the submitted solution must contain both the training process and the inference process. Non-learning-based solutions may opt for an empty training process. The submitted solutions will be evaluated based on their segmentation performance and energy consumption during both the training and inference phases.
+
+### ✅ Task 3: Segmentation of an unknown dataset (Dataset 2)
+For this task, the dataset is not disclosed to the participants. Only a few examples are provided in order to give the participants a sense of how the data look like. The objective is to segment the fetal brain in MRI slices.
+To solve this task, the participants have to submit their untrained solution. The solution will then be trained and evaluated on the final training and test data samples. Since the dataset is not disclosed, the submitted solution must include any hyperparameter tuning that the participating teams may wish to implement. Needless to say, the energy usage for such hyperparameter tuning will be counted towards the total energy usage. Therefore, methods that can reach high segmentation accuracy with little hyperparameter tuning will be advantageous. An empty training process is possible for non-learning-based solutions.

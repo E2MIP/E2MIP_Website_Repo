@@ -1,0 +1,28 @@
+---
+title: Code examples
+weight: 4
+---
+
+The following code examples are intended to help participate in the challenge. These solutions provide a straightforward baseline and should help to prepare own solutions. They can also serve as a starting point for individual development, but a completely new design is possible and encouraged.
+We provide code to generate sample data for the Challenge datasets:
+
+## Preparation for Dataset 1 (LIDCI-IDRI)
+
+We provide code to generate sample data for the Challenge datasets:
+
+**Dataset 1**: [GitHub LIDCI-IDRI Data](https://github.com/XRad-Ulm/E2MIP_LIDCI-IDRI_data)
+
+## Example images for Dataset 2: 
+[GitHub Fetal Brain Segmentation](https://github.com/Faghihpirayesh/E2MIP_Challenge_FetalBrainSegmentation): Some example images are included in the baseline approach and can be used to get a feeling for the data.
+
+## Baseline solutions for task 1 to task 3 
+
+Furthermore, we provide baseline implementations for the Challenge tasks:
+
+**Task 1**: [GitHub LIDCI-IDRI Classification](https://github.com/XRad-Ulm/E2MIP_LIDCI-IDRI_classification)
+
+**Task 2**: [GitHub LIDCI-IDRI Segmentation](https://github.com/XRad-Ulm/E2MIP_LIDC-IDRI_segmentation)
+
+**Task 3**: [GitHub Fetal Brain Segmentation](https://github.com/Faghihpirayesh/E2MIP_Challenge_FetalBrainSegmentation)
+
+These solutions provide a straightforward baseline and should help to prepare own solutions. They can also serve as a starting point for individual development, but a completely new design is possible and encouraged.

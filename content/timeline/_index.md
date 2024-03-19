@@ -1,0 +1,14 @@
+---
+title: Timeline
+weight: 8
+---
+
+**🕑 20th March 2024:** \
+Challenge announcement, publication of training data.
+
+**🕑 16th September, 23:59 pm (UTC+1):** \
+Submission deadline. Contributions submitted between this time point and the final evaluation day during MICCAI might be considered, depending on the available resources. However, this cannot be promised. 
+
+**🕑 6th or 10 10th October 2024:** \
+Award ceremony of the challenge at MICCAI 2024. Top performing submissions will present their methods. 
+Sadly, online participation is not possible for this years MICCAI events. Persons who won’t attend MICCAI can still participate in the challenge and will be informed afterward about the results. Please contact the organizers if you are scheduled to give a talk and cannot attend the MICCAI

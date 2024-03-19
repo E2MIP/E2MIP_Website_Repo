@@ -1,19 +1,20 @@
 title = 'E2MIP'
-baseURL= ''
+baseURL= 'https://e2mip.org/'
 languageCode = 'en-us'
-theme = 'hugo-theme-learn-master'
+# theme = 'hugo-theme-learn-master'
+theme = 'learn-lean'
 
 [params]
-  themeVariant = "blue"
+  themeVariant = "mine"
   titleSeparator = "-"
-
-[[menu.shortcuts]] 
-name = "<i class='fab fa-github'></i> Github"
-identifier = "ds"
-url = "https://github.com/E2MIP/e2mip.github.io"
-weight = 10
+  disableSearch = true 
+  disableNextPrev = true
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-bullhorn'></i> About us"
 url = "/credits"
 weight = 30
+[[menu.shortcuts]]
+name = "E2MIP Challenge 2023"
+url = "/2023"
+weight = 32
