@@ -12,7 +12,7 @@ theme = 'learn-lean'
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-bullhorn'></i> About us"
-url = "/credits"
+url = "https://e2mip.org/credits"
 weight = 30
 [[menu.shortcuts]]
 name = "E2MIP Challenge 2023"

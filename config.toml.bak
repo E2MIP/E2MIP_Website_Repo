@@ -16,5 +16,5 @@ url = "/credits"
 weight = 30
 [[menu.shortcuts]]
 name = "E2MIP Challenge 2023"
-url = "/2023"
+url = "https://e2mip.org/2023"
 weight = 32

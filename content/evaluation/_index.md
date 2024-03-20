@@ -11,6 +11,6 @@ The energy consumption of each submission will be measured with an in-build hard
 The key metrics for the performance evaluation of the algorithms will be the Area under ROC-Curve for classification and Dice Similarity Coefficient for segmentation. Energy consumption will be measured by the system’s hardware. Example code the calculation of performance metrics is included in the baseline implementations.
 
 ## 📈 Ranking
-No ranking will be produced for the challenge, to account for the possible trade-off between energy and performance and encourage creative approaches. Instead a Pareto-front will be reported for each task to evaluate all approaches. Submissions will be displayed in a diagram with energy used as on axis and performance as the second axis. A solution will be on the Pareto-front when there is no other solution that performs better with a lower energy consumption.
+No ranking will be produced for the challenge, to account for the possible trade-off between energy and performance and encourage creative approaches. Instead a Pareto-front will be reported for each task to evaluate all approaches. Submissions will be displayed in a diagram with energy used as one axis and performance as the second axis. A solution will be on the Pareto-front when there is no other solution that performs better with a lower energy consumption.
 
 

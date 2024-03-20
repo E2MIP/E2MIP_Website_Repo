@@ -7,7 +7,7 @@ weight: 5
 - The participants should submit a script that creates a container containing everything necessary for the training and inference.
 - An internet connection will be available for the creation of the container, but not during training or inference.
 - The organizers might check the submitted code to ensure that it abides by the rules. The submitted solutions should allow for that. However, the submitted solution does need to be publicly available but might be secured, for example by a password given in the code.
-- No side information about the data should be used, i.e. no hard coding of cases, no pretraining on the datasets etc…
+- Only the provided information should be used during inference. Obviously approaches like hard coding of cases, or pretraining on the whole datasets are not allowed.
 - Pretrained models might be used if they are:
   - Not trained on the challenge data.
   - Not made solely for the challenge.
