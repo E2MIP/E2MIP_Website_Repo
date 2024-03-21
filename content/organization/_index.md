@@ -3,7 +3,7 @@ title: Organization
 weight: 9
 ---
 
-The challenge is hosted at [Medical Image Computing and Computer Assisted Intervention (MICCAI) 2023](https://conferences.miccai.org/2024/en/).
+The challenge is hosted at [Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024](https://conferences.miccai.org/2024/en/).
 ![MICCAI 2024](/logos/miccaiboth.png 'MICCAI')
 
 ### General questions
