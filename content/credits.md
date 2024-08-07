@@ -20,5 +20,4 @@ Sabitha Manoj
 #### From Boston Children`s Hospital
 ![Boston Child Hospital](/logos/boston.png 'MICCAI')
 Razieh Faghihpirayesh (razieh.faghihpirayesh@childrens.harvard.edu), \
-Ali Gholipour, \
 Davood Karimi (Davood.Karimi@childrens.harvard.edu) 
