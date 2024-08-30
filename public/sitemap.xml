@@ -18,6 +18,8 @@
   </url><url>
     <loc>http://localhost:1313/organization/</loc>
   </url><url>
+    <loc>http://localhost:1313/conference/</loc>
+  </url><url>
     <loc>http://localhost:1313/credits/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
