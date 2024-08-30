@@ -7,6 +7,10 @@ title: "Introduction"
 For all participants, please register at the Google-Group: e2mip@googlegroups.com
 
 ## 📰 News
+__30.08.2024: Submission is open__
+
+Our submission system is open, using the [CMT3 page for E2MIP](https://cmt3.research.microsoft.com/E2MIP2024). More details are provided on the submission page. 
+
 __20.03.2024: Challenge is open__
 
 We are pleased to announce that the E2MIP-challenge will be re-run in 2024. With the update of the website, the challenge is open again. 
