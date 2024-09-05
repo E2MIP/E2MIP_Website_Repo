@@ -11,22 +11,22 @@
     <title>Submission - E2MIP</title>
 
     
-    <link href="/css/nucleus.css?1725018385" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1725018385" rel="stylesheet">
-    <link href="/css/hybrid.css?1725018385" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1725018385" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1725018385" rel="stylesheet">
-    <link href="/css/auto-complete.css?1725018385" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1725018385" rel="stylesheet">
-    <link href="/css/theme.css?1725018385" rel="stylesheet">
-    <link href="/css/tabs.css?1725018385" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1725018385" rel="stylesheet">
+    <link href="/css/nucleus.css?1725528642" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1725528642" rel="stylesheet">
+    <link href="/css/hybrid.css?1725528642" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1725528642" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1725528642" rel="stylesheet">
+    <link href="/css/auto-complete.css?1725528642" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1725528642" rel="stylesheet">
+    <link href="/css/theme.css?1725528642" rel="stylesheet">
+    <link href="/css/tabs.css?1725528642" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1725528642" rel="stylesheet">
     
-    <link href="/css/theme-mine.css?1725018385" rel="stylesheet">
+    <link href="/css/theme-mine.css?1725528642" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1725018385"></script>
+    <script src="/js/jquery-3.3.1.min.js?1725528642"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -351,6 +351,12 @@
 <nav id="TableOfContents">
   <ul>
     <li><a href="#-submission">🗳️ Submission</a></li>
+    <li><a href="#-docker">📦️ Docker</a>
+      <ul>
+        <li><a href="#docker-template">Docker template</a></li>
+        <li><a href="#container-requirements">Container requirements</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -380,8 +386,28 @@
 <p>Additional details on the submission process (Homepage, requirements, how-to’s and docker template) will be provided here in future.</p>
 <h2 id="-submission">🗳️ Submission</h2>
 <p>The submissions are handled using the CMT3 system that is also used for the main MICCAI conference. Here, you can submit both the describing paper as well as the code using a link or a zip file.</p>
-<p><a href="https://cmt3.research.microsoft.com/E2MIP2024">Submission page on CMT</a></p>
+<p><strong><a href="https://cmt3.research.microsoft.com/E2MIP2024">Submission page on CMT</a></strong></p>
 <p>If you want to participate by submitting solutions to more than one task we recommend to create multiple submissions, one for each tasks. While this is not mandatory, it really simplifies to identify the correct solutions for each task. The submitted paper that describes the process can be the same for all tasks.</p>
+<h2 id="-docker">📦️ Docker</h2>
+<p>A containerized solution is required for the submission of each solution. Once build, the container must not require any internet connetion in order to train or interfer the results. Consequently any package installation, model downloading etc.. should be done while creating the corresponding container.</p>
+<h3 id="docker-template">Docker template</h3>
+<p>You might use our <a href="/data/Dockerfile">template docker file</a> as a starter and adapt it to your need. A different dockerfile might also be used on your own risk.</p>
+<p><strong><a href="/data/Dockerfile">Template Dockerfile</a></strong></p>
+<h3 id="container-requirements">Container requirements</h3>
+<p>The container could be either a docker container or an <a href="https://github.com/NVIDIA/enroot">enroot</a> container. As a submitted docker container will be convert into an enroot container to run on our systems, we would prefer an enroot container. However, knowing that most people are more familiar with docker, we also allow docker containers that will then be transformed to enroot container by us.</p>
+<p>For training, the following directories will be mounted:</p>
+<ul>
+<li><strong>/mnt/training_data</strong> : A folder containing the training data, including the original images and the ground truth</li>
+<li><strong>/mnt/training_results</strong> : A folder that is accessible both during training and inference, can be used to store trained parameters.
+For training, we will call the script /submission/train.sh . This script can also simply execture an single python command.</li>
+</ul>
+<p>For inference, the following directories will be mounted:</p>
+<ul>
+<li><strong>/mnt/training_results</strong> : A folder that is accessible both during training and inference, can contain the trained models.</li>
+<li><strong>/mnt/query_data</strong> : A folder containing the data for which the inference/predicting should be done</li>
+<li><strong>/mnt/predicted_data</strong> : The folder to which the predictions should be saved.
+For training, we will call the script /submission/inference.sh . This script can also simply execture an single python command.</li>
+</ul>
 
 
 
@@ -583,19 +609,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1725018385"></script>
-    <script src="/js/perfect-scrollbar.min.js?1725018385"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1725018385"></script>
-    <script src="/js/jquery.sticky.js?1725018385"></script>
-    <script src="/js/featherlight.min.js?1725018385"></script>
-    <script src="/js/highlight.pack.js?1725018385"></script>
+    <script src="/js/clipboard.min.js?1725528642"></script>
+    <script src="/js/perfect-scrollbar.min.js?1725528642"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1725528642"></script>
+    <script src="/js/jquery.sticky.js?1725528642"></script>
+    <script src="/js/featherlight.min.js?1725528642"></script>
+    <script src="/js/highlight.pack.js?1725528642"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1725018385"></script>
-    <script src="/js/learn.js?1725018385"></script>
-    <script src="/js/hugo-learn.js?1725018385"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1725528642"></script>
+    <script src="/js/learn.js?1725528642"></script>
+    <script src="/js/hugo-learn.js?1725528642"></script>
     
         
-            <script src="/mermaid/mermaid.js?1725018385"></script>
+            <script src="/mermaid/mermaid.js?1725528642"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

@@ -9,7 +9,7 @@ For all participants, please register at the Google-Group: e2mip@googlegroups.co
 ## 📰 News
 __30.08.2024: Submission is open__
 
-Our submission system is open, using the [CMT3 page for E2MIP](https://cmt3.research.microsoft.com/E2MIP2024). More details are provided on the submission page. 
+Our submission system is open, using the [CMT3 page for E2MIP](https://cmt3.research.microsoft.com/E2MIP2024). More details are provided on the submission page.
 
 __20.03.2024: Challenge is open__
 
