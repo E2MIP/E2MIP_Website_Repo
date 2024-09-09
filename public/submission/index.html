@@ -11,22 +11,22 @@
     <title>Submission - E2MIP</title>
 
     
-    <link href="/css/nucleus.css?1725528642" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1725528642" rel="stylesheet">
-    <link href="/css/hybrid.css?1725528642" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1725528642" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1725528642" rel="stylesheet">
-    <link href="/css/auto-complete.css?1725528642" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1725528642" rel="stylesheet">
-    <link href="/css/theme.css?1725528642" rel="stylesheet">
-    <link href="/css/tabs.css?1725528642" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1725528642" rel="stylesheet">
+    <link href="/css/nucleus.css?1725868083" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1725868083" rel="stylesheet">
+    <link href="/css/hybrid.css?1725868083" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1725868083" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1725868083" rel="stylesheet">
+    <link href="/css/auto-complete.css?1725868083" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1725868083" rel="stylesheet">
+    <link href="/css/theme.css?1725868083" rel="stylesheet">
+    <link href="/css/tabs.css?1725868083" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1725868083" rel="stylesheet">
     
-    <link href="/css/theme-mine.css?1725528642" rel="stylesheet">
+    <link href="/css/theme-mine.css?1725868083" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1725528642"></script>
+    <script src="/js/jquery-3.3.1.min.js?1725868083"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -355,6 +355,7 @@
       <ul>
         <li><a href="#docker-template">Docker template</a></li>
         <li><a href="#container-requirements">Container requirements</a></li>
+        <li><a href="#input--output-format">Input / Output format</a></li>
       </ul>
     </li>
   </ul>
@@ -408,6 +409,17 @@ For training, we will call the script /submission/train.sh . This script can als
 <li><strong>/mnt/predicted_data</strong> : The folder to which the predictions should be saved.
 For training, we will call the script /submission/inference.sh . This script can also simply execture an single python command.</li>
 </ul>
+<h3 id="input--output-format">Input / Output format</h3>
+<p>The data to be used by the container will be in the same format as the data it is used in the <a href="/code_examples/">code examples</a>.</p>
+<p>For the LIDC-IDRI-based tasks, this means that:</p>
+<ul>
+<li><strong>Input data format:</strong> The data will be processed according to the preprocessing script from the code examples.</li>
+<li><strong>Data loader:</strong> You can use the data loader given in the LIDC examples if you want to, but this is not mandatory.</li>
+<li><strong>Storing classifcation results:</strong> For each nodule, the predictions should be stored in an individual file at the path testing_data_prediction_classification/scan_<!-- raw HTML omitted -->/nodule_<!-- raw HTML omitted -->.txt with <!-- raw HTML omitted --> and <!-- raw HTML omitted --> being the ID of the scan and the nodules resprectively. The file should contain the probabilities for each class in a comma (,)-separated way.</li>
+<li><strong>Storing segmentation results:</strong> The results of the segmentation task should be stored in a file at the location testing_data_prediction_segmentation/scan_<!-- raw HTML omitted -->/prediction_total.nii&quot;, with SCANID being the ID of the individual scan. Each file should contain the segmentation of the whole image.</li>
+<li><strong>Example evaluation code:</strong> A example code for the evaluation is given in the repositories of the code examples for both LIDC-IDRI tasks. If you can evaluate your solution using this code, it should also work with our solution.</li>
+</ul>
+<p>The details about the provided and expected file format for the fetal brain segmentation task is given in the repository of the example solution.</p>
 
 
 
@@ -609,19 +621,19 @@ For training, we will call the script /submission/inference.sh . This script can
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1725528642"></script>
-    <script src="/js/perfect-scrollbar.min.js?1725528642"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1725528642"></script>
-    <script src="/js/jquery.sticky.js?1725528642"></script>
-    <script src="/js/featherlight.min.js?1725528642"></script>
-    <script src="/js/highlight.pack.js?1725528642"></script>
+    <script src="/js/clipboard.min.js?1725868083"></script>
+    <script src="/js/perfect-scrollbar.min.js?1725868083"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1725868083"></script>
+    <script src="/js/jquery.sticky.js?1725868083"></script>
+    <script src="/js/featherlight.min.js?1725868083"></script>
+    <script src="/js/highlight.pack.js?1725868083"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1725528642"></script>
-    <script src="/js/learn.js?1725528642"></script>
-    <script src="/js/hugo-learn.js?1725528642"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1725868083"></script>
+    <script src="/js/learn.js?1725868083"></script>
+    <script src="/js/hugo-learn.js?1725868083"></script>
     
         
-            <script src="/mermaid/mermaid.js?1725528642"></script>
+            <script src="/mermaid/mermaid.js?1725868083"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

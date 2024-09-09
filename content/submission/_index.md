@@ -39,3 +39,15 @@ For inference, the following directories will be mounted:
 * **/mnt/predicted_data** : The folder to which the predictions should be saved. 
 For training, we will call the script /submission/inference.sh . This script can also simply execture an single python command. 
 
+### Input / Output format
+
+The data to be used by the container will be in the same format as the data it is used in the [code examples](/code_examples/). 
+
+For the LIDC-IDRI-based tasks, this means that: 
+* **Input data format:** The data will be processed according to the preprocessing script from the code examples.
+* **Data loader:** You can use the data loader given in the LIDC examples if you want to, but this is not mandatory. 
+* **Storing classifcation results:** For each nodule, the predictions should be stored in an individual file at the path testing_data_prediction_classification/scan_<SCANID>/nodule_<NoduleID>.txt with <SCANID> and <NoduleID> being the ID of the scan and the nodules resprectively. The file should contain the probabilities for each class in a comma (,)-separated way. 
+* **Storing segmentation results:** The results of the segmentation task should be stored in a file at the location testing_data_prediction_segmentation/scan_<SCANID>/prediction_total.nii", with SCANID being the ID of the individual scan. Each file should contain the segmentation of the whole image. 
+* **Example evaluation code:** A example code for the evaluation is given in the repositories of the code examples for both LIDC-IDRI tasks. If you can evaluate your solution using this code, it should also work with our solution. 
+
+The details about the provided and expected file format for the fetal brain segmentation task is given in the repository of the example solution.
